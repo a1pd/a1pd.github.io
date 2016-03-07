@@ -9,10 +9,10 @@
             <nav ng-class="mobileToggleFlag ? 'menu menu-open' : 'menu'" id="theMenu">
                 <div class='menu-wrap'>
                     <h1><a href="#/">A1 Professional Designs</a></h1><br /><br />
-                    <a href="#/" ng-class="menuFlagGlobal==1 ? 'smoothScroll active-menu ' : 'smoothScroll'" >Home</a>
-                    <a href="#/about" ng-class="menuFlagGlobal==2 ? 'smoothScroll active-menu ' : 'smoothScroll'">About Us</a>
-                    <a href="#/products-and-services" ng-class="menuFlagGlobal==3 ? 'smoothScroll active-menu ' : 'smoothScroll'" >Products and Services</a>
-                    <a href="#/contact" ng-class="menuFlagGlobal==4 ? 'smoothScroll active-menu ' : 'smoothScroll'">Contact Us</a>
+                    <a href="#/" ng-class="menuFlagGlobal==1 ? 'smoothScroll active-menu ' : 'smoothScroll'" ng-click="setMobileToggle()">Home</a>
+                    <a href="#/about" ng-class="menuFlagGlobal==2 ? 'smoothScroll active-menu ' : 'smoothScroll'" ng-click="setMobileToggle()">About Us</a>
+                    <a href="#/products-and-services" ng-class="menuFlagGlobal==3 ? 'smoothScroll active-menu ' : 'smoothScroll'"  ng-click="setMobileToggle()">Products and Services</a>
+                    <a href="#/contact" ng-class="menuFlagGlobal==4 ? 'smoothScroll active-menu ' : 'smoothScroll'" ng-click="setMobileToggle()">Contact Us</a>
                 </div>
             </nav>
         </div>
@@ -36,7 +36,7 @@
             <div class='container header-content'>
                 <div class='row'>
                     <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center'>
-                        <div><img src='assets/a1pd-logo.png' height='80' width='80' class='img img-responsive site-logo' /></div></br>
+                        <div><img src='assets/a1pd-logo.png' height='80' width='80' class='img img-responsive site-logo' /></div><br/>
                     </div>
                 </div>
             </div><!-- /container -->
