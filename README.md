@@ -5,4 +5,8 @@
 This is the repository that hold the contents of the http://a1pd.co.nz/ website. If you need help on how to add/ update the website,
 please refer to the [documentation](https://github.com/a1pd/documentation) repository.  
 
+<<<<<<< HEAD
 http://a1pd.co.nz/ is crafted by [Clyde D'Souza](http://clydedsouza.net).  
+=======
+http://a1pd.co.nz/ is crafted by [Clyde D'Souza](http://clydedsouza.net/).  
+>>>>>>> origin/master
